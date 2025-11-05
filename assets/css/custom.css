@@ -1,0 +1,134 @@
+/* Custom styles for MODES Lab header and responsive nav */
+.root{
+  --site-max-width: 1100px;
+}
+.root{
+  --site-max-width: 1100px;
+}
+/* Color palette provided by user
+   Midnight Navy: #1A2E40
+   Teal: #007B7F
+   Amber: #FFC145
+   Ivory Gray: #F2F2F2
+*/
+:root{
+  --site-max-width: 1280px;
+  --header-bg: #1A2E40; /* Midnight Navy */
+  --accent: #007B7F;   /* Teal (primary accent) */
+  --accent-2: #FFC145; /* Amber (highlight) */
+  --muted: #F2F2F2;    /* Ivory Gray */
+}
+.site-header{background: var(--header-bg); color: #fff; position: sticky; top: 0; z-index: 999; box-shadow: 0 2px 6px rgba(26,46,64,0.08);} 
+.site-header__inner{max-width:var(--site-max-width);margin:0 auto;padding:0.6rem 1rem;display:flex;align-items:center;gap:1rem;}
+.site-title{font-weight:700;color:#fff;text-decoration:none;font-size:1.125rem}
+
+/* Logo */
+.site-brand{display:flex;align-items:center}
+.site-logo-wrapper{display:inline-flex;align-items:center;justify-content:center;border-radius:6px;overflow:hidden;background:transparent}
+.site-logo{height:48px;max-height:48px;width:auto;display:block;margin-right:0.6rem}
+.site-title-text{font-weight:700;color:#fff;text-decoration:none;font-size:1.125rem;margin-left:0.25rem}
+.primary-nav{margin-left:auto}
+.primary-nav ul{list-style:none;margin:0;padding:0;display:flex;gap:1rem;align-items:center}
+.primary-nav a{color:inherit;text-decoration:none;padding:0.25rem 0.5rem;border-radius:4px}
+.primary-nav a:hover, .primary-nav a[aria-current='page'], .primary-nav a.active{background:rgba(255,255,255,0.08);}
+.primary-nav a.active{box-shadow: inset 0 -3px 0 var(--accent);}
+.nav-toggle{display:none;background:transparent;border:0;color:inherit;margin-left:auto}
+.nav-toggle:focus{outline:2px solid rgba(255,255,255,0.5)}
+.nav-toggle__bar{display:block;width:22px;height:2px;background:#fff;margin:4px 0}
+
+/* mobile */
+@media (max-width: 800px){
+  .primary-nav{position:absolute;top:100%;left:0;right:0;background:var(--header-bg);display:none;padding:0.5rem 1rem}
+  .primary-nav.open{display:block}
+  .primary-nav ul{flex-direction:column;gap:0.5rem}
+  .nav-toggle{display:block}
+  .site-logo{height:40px;max-height:40px}
+  .site-title-text{font-size:1rem}
+}
+
+  /* Projects list styles */
+  .projects-list{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem}
+  .project-item{background:rgba(255,255,255,0.02);border-radius:8px;padding:0.75rem;display:flex;gap:0.75rem;align-items:flex-start}
+  .project-thumb{width:88px;height:88px;object-fit:cover;border-radius:6px;flex:0 0 88px}
+  .project-title{margin:0 0 0.25rem 0;font-size:1.05rem}
+  .project-summary{margin:0 0 0.5rem 0;color:#e6eef0}
+  .project-partners{margin:0;font-size:0.9rem;color:#cbdfe0}
+  .project-year{color:var(--accent-2);font-weight:600}
+
+  /* Slider styles */
+  .site-slider{position:relative;max-width:var(--site-max-width);margin:0.75rem auto 1.5rem;padding:0 1rem}
+  .site-slider .slides-wrapper{position:relative;overflow:hidden;border-radius:10px;height:320px}
+  .site-slider .slide{position:absolute;inset:0;opacity:0;transition:opacity 600ms ease;z-index:1}
+  .site-slider .slide.active{opacity:1;z-index:2}
+  .site-slider .slide-image{width:100%;height:100%;object-fit:cover;display:block}
+  .site-slider .slide-caption{position:absolute;left:1.25rem;bottom:1.25rem;color:#fff;padding:0.5rem 0.75rem;border-radius:6px;max-width:60%;
+    background: linear-gradient(0deg, rgba(0,0,0,0.18), rgba(0,0,0,0.04));
+    backdrop-filter: blur(2px);
+  }
+  .site-slider .slide-title{margin:0;font-size:1.25rem;text-shadow:0 2px 8px rgba(0,0,0,0.6)}
+  .site-slider .slide-text{margin:0.25rem 0 0;font-size:0.95rem;color:#fff;opacity:0.95;text-shadow:0 1px 6px rgba(0,0,0,0.5)}
+  .slide-prev,.slide-next{position:absolute;top:50%;transform:translateY(-50%);background:transparent;color:rgba(255,255,255,0.95);border:0;width:44px;height:44px;display:flex;align-items:center;justify-content:center;border-radius:999px;font-size:22px;cursor:pointer;text-shadow:0 2px 8px rgba(0,0,0,0.6)}
+  .slide-prev{left:0.65rem}
+  .slide-next{right:0.65rem}
+  .slide-prev:focus,.slide-next:focus{outline:2px solid rgba(255,255,255,0.15)}
+  .slide-prev:hover,.slide-next:hover{background:rgba(0,0,0,0.12)}
+  .slide-dots{display:flex;gap:0.4rem;position:absolute;left:50%;transform:translateX(-50%);bottom:0.5rem}
+  .slide-dot{width:10px;height:10px;border-radius:50%;background:rgba(255,255,255,0.35);border:0}
+  .slide-dot.active{background:var(--accent-2)}
+
+  @media (max-width:800px){
+    .site-slider .slide-image{height:200px}
+    .site-slider .slide-caption{max-width:85%;left:0.75rem;bottom:0.75rem}
+    .slide-prev,.slide-next{padding:0.35rem 0.6rem}
+  }
+
+  /* Icon-only style for slider controls: make them more visible and touch-friendly */
+  .slide-prev, .slide-next{
+    width:44px;height:44px;padding:0;border-radius:50%;background:rgba(0,0,0,0.35);backdrop-filter:blur(4px);box-shadow:0 6px 18px rgba(10,10,10,0.25);z-index:5;display:flex;align-items:center;justify-content:center;color:#fff;font-size:18px;border:1px solid rgba(255,255,255,0.06)
+  }
+  .slide-prev i, .slide-next i{font-size:18px;line-height:1}
+  .slide-prev:hover, .slide-next:hover{background:rgba(0,0,0,0.5)}
+  .slide-prev:focus, .slide-next:focus{outline:2px solid rgba(255,255,255,0.18);outline-offset:2px}
+
+  /* Slightly pull controls outwards on large screens for better visibility */
+  @media (min-width:1200px){
+    .slide-prev{left:0.35rem}
+    .slide-next{right:0.35rem}
+  }
+
+.site-main__inner{max-width:var(--site-max-width);margin:1.25rem auto;padding:0 1rem}
+
+/* Make the main content column wider for article pages and responsive on small screens */
+.page-content{max-width:920px;margin:0 auto}
+@media (max-width:1100px){
+  /* allow content to use more of the viewport on narrow desktops/tablets */
+  .page-content{max-width:88vw}
+}
+@media (max-width:700px){
+  .page-content{max-width:98vw;padding:0 0.75rem}
+  .site-header__inner{padding:0.6rem 0.75rem}
+}
+.site-footer{border-top:1px solid #e6e6e6;margin-top:2rem;padding:1rem 0;background:var(--muted)}
+
+/* keep existing theme styles but improve link contrast in content */
+.page-content a{color:var(--accent)}
+
+/* search removed: styles intentionally left out */
+
+/* social links */
+.social-links{display:flex;gap:0.5rem;margin-left:0.75rem}
+.social-link{color:#fff;opacity:0.95}
+.social-link:hover{opacity:1}
+
+/* News list styles */
+.news-list{display:grid;grid-template-columns:1fr;gap:1rem;margin-top:0.5rem}
+.news-item{background:rgba(0,0,0,0.02);padding:0.9rem;border-radius:8px;border:1px solid rgba(0,0,0,0.04)}
+.news-title{margin:0 0 0.25rem 0;font-size:1.05rem}
+.news-date{display:block;color:#6b7c80;font-size:0.9rem;margin-bottom:0.5rem}
+.news-summary{margin:0;color:#20363a}
+.news-tags{margin-top:0.5rem;font-size:0.85rem;color:#556b6d}
+.news-tags .tag{background:rgba(0,0,0,0.04);padding:0.15rem 0.4rem;border-radius:4px;margin-right:0.35rem}
+
+@media (min-width:900px){
+  .news-list{grid-template-columns:repeat(2,1fr)}
+}
