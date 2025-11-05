@@ -1,0 +1,30 @@
+-
+  id: ossmeter
+  title: OSSMETER
+  year: 2021
+  summary: "Open-source software quality assessment and metrics tooling. We developed automated analyses and dashboards to help projects track metrics over time."
+  partners:
+    - University of L'Aquila
+    - Rete Ferroviaria Italiana
+  link: "https://example.com/ossmeter"
+  image: "/assets/images/projects/ossmeter.png"
+
+-
+  id: typhon
+  title: TYPHON
+  year: 2020
+  summary: "A research project on automated program analysis and model mining focused on scalable, language-agnostic approaches."
+  partners:
+    - European Consortium
+  link: "https://example.com/typhon"
+  image: "/assets/images/projects/typhon.png"
+
+-
+  id: crossminer
+  title: CROSSMINER
+  year: 2019
+  summary: "Cross-repository mining and analysis tools for extracting usage patterns and API evolution trends."
+  partners:
+    - Industrial Partner A
+  link: "https://example.com/crossminer"
+  image: "/assets/images/projects/crossminer.png"

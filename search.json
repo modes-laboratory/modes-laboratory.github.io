@@ -1,0 +1,9 @@
+---
+layout: none
+---
+[{
+{%- assign pages = site.pages | concat: site.posts -%}
+{%- for p in pages -%}
+  { "title": "{{ p.title | escape }}", "url": "{{ p.url | relative_url }}", "content": "{{ p.content | strip_html | strip_newlines | replace: '\\', '' | escape }}" }{%- if forloop.last == false -%},{%- endif -%}
+{%- endfor -%}
+]

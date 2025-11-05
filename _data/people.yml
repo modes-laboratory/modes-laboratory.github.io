@@ -1,0 +1,55 @@
+# Structured people data for MODES Lab
+
+- name: "Dr. Juri Di Rocco"
+  role: "Lead - Researcher"
+  email: "juri.dirocco@example.com"
+  bio: "Researcher focusing on Model-Driven Engineering and software mining. Lead of the MODES laboratory."
+  photo: "" # optional: assets/images/juri.jpg
+
+- name: "Prof. Davide Di Ruscio"
+  role: "Full Professor"
+  email: "davide.diruscio@example.com"
+  bio: "Davide Di Ruscio is a Full Professor at the Department of Information Engineering Computer Science and Mathematics of the University of L’Aquila. His main research interests are related to several aspects of Software Engineering, Open Source Software, and Model-Driven Engineering (MDE), including domain-specific modelling languages, model transformation, model differencing, coupled evolution, and recommendation systems. He has published more than 200 papers in various journals, conferences and workshops on such topics. He has been in the PC and involved in the organization of several workshops and conferences, and he is a reviewer of many journals like IEEE Transactions on Software Engineering, Science of Computer Programming, Software and Systems Modeling, and Journal of Systems and Software. He is a member of the steering committee of the International Conference on Model Transformation (ICMT), of the Software Language Engineering (SLE) conference, of the Seminar Series on Advanced Techniques & Tools for Software Evolution (SATTOSE), of the Workshop on Modelling in Software Engineering at ICSE (MiSE) and of the International Workshop on Robotics Software Engineering (RoSE). Davide is on the editorial board of the International Journal on Software and Systems Modeling (SoSyM), of IEEE Software, of the Journal of Object Technology, and of the IET Software journal. Since 2006, he has been working on different European and Italian research projects by contributing to the application of MDE concepts and tools in several application domains (e.g., service-based software systems, autonomous systems, open-source software systems, and hybrid polystore systems)."
+  photo: ""
+
+- name: "Prof. Alfonso Pierantonio"
+  role: "Full Professor"
+  email: "alfonso.pierantonio@example.com"
+  bio: "Alfonso Pierantonio is Full Professor in the Dipartimento di Ingegneria e Scienze dell’Informazione e Matematica of Università degli Studi dell’Aquila. From Jan 2016, he is visiting full professor at the Mälardalens University (Sweden). Alfonso’s expertise lies in the area of software engineering and, in particular, model-driven and language engineering and low-code with special attention to co-evolution techniques, consistency management, and bidirectionality. Recently, he has been focusing on the classification and clustering of modeling artifact repositories. He has been on the organizingv committees of several international conferences and is a member of the steering committee of the MoDELS conference. Alfonso is Editor-in-Chief of the Journal of Object Technology, in the Editorial Board of the Journal of Software and System Modeling, and on the Science of Computer Programming advisory board. He is (co-)principal investigator of several research and industrial projects"
+  photo: ""
+
+- name: "Prof. Antonio Bucchiarone"
+  role: "Associate Professor"
+  email: "phuong.nguyen@example.com"
+  bio: "Gamification GOD."
+  photo: ""
+
+- name: "Prof. Phuong Than Nguyen"
+  role: "Associate Professor"
+  email: "phuong.nguyen@example.com"
+  bio: "Researcher working on model assistants and recommender systems for software engineering."
+  photo: ""
+
+- name: "Dr. Claudio Di Sipio"
+  role: "Post-doc / Research Fellow"
+  email: "claudio.disipio@example.com"
+  bio: "Post-doc working on software mining and empirical studies."
+  photo: ""
+
+- name: "Dr. Riccardo Rubei"
+  role: "Post-doc / Research Fellow"
+  email: "riccardo.rubei@example.com"
+  bio: "Researcher with interests in software analysis and automated code generation."
+  photo: ""
+
+- name: "Dr. Damiano Di Vincenzo"
+  role: "Post-doc / Research Fellow"
+  email: "damiano.divincenzo@example.com"
+  bio: "Works on model transformations and tool support for MDE."
+  photo: ""
+
+- name: "Dr. Giordano Tinella"
+  role: "Post-doc / Research Fellow"
+  email: "giordano.tinella@example.com"
+  bio: "Researcher in software mining and data-driven engineering tools."
+  photo: ""

@@ -1,0 +1,20 @@
+-
+  id: slide1
+  image: "/assets/images/slider/slide1.svg"
+  title: "Model-driven research"
+  caption: "Advancing software engineering with models and mining techniques."
+  link: "/research/"
+
+-
+  id: slide2
+  image: "/assets/images/slider/slide2.svg"
+  title: "Industrial collaborations"
+  caption: "We work with industry partners to transfer research into practice."
+  link: "/projects/"
+
+-
+  id: slide3
+  image: "/assets/images/slider/slide3.svg"
+  title: "Open tools & data"
+  caption: "Open-source tools, datasets, and reproducible experiments."
+  link: "/publications/"

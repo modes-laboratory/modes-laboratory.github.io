@@ -1,0 +1,46 @@
+title: "MODES Lab"
+email: ""
+description: "Model-Driven Engineering and Software Mining Laboratory — University of L'Aquila"
+baseurl: "" # the subpath of your site, e.g. /repo
+url: "https://example.com" # the base hostname & protocol for your site
+
+# Use Minimal Mistakes as a remote theme (inspired by framelab.team look-and-feel)
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-remote-theme
+
+# Ensure certain hidden files/directories are copied to the generated site
+include:
+  - ".well-known/appspecific/com.chrome.devtools.json"
+  - ".well-known"
+  - ".well-known/appspecific"
+
+# Navigation
+nav:
+  - title: Home
+    url: /
+  - title: Research
+    url: /research/
+  - title: Projects
+    url: /projects/
+  - title: Publications
+    url: /publications/
+  - title: People
+    url: /people/
+  - title: News
+    url: /news/
+  - title: Contact
+    url: /contact/
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: single
+
+# Minimal configuration options
+markdown: kramdown
+theme: jekyll-theme-minimal

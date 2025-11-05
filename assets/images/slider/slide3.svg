@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+  <rect width="1200" height="600" fill="#FFC145" />
+  <g fill="#123" font-family="Helvetica, Arial, sans-serif">
+  <text x="60" y="220" font-size="64" font-weight="700">Open tools &amp; data</text>
+    <text x="60" y="300" font-size="28" opacity="0.95">Open-source tools, datasets, and reproducible experiments.</text>
+  </g>
+</svg>

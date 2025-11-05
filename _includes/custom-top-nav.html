@@ -1,0 +1,20 @@
+<nav class="custom-top-nav" aria-label="Site navigation">
+  <ul>
+  {% for item in site.data.navigation %}
+    <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+  {% endfor %}
+  </ul>
+</nav>
+
+<style>
+.custom-top-nav { padding: 0.5rem 0; background: #f7f7f7; border-bottom: 1px solid #e1e1e1; }
+.custom-top-nav ul { list-style: none; margin: 0; padding: 0 1rem; display: flex; gap: 1rem; flex-wrap: wrap; }
+.custom-top-nav a { color: #333; text-decoration: none; font-weight: 600; }
+.custom-top-nav a:hover { text-decoration: underline; }
+.custom-top-nav--masthead { margin-left: 1rem; background: transparent; border-bottom: 0; padding: 0; }
+.custom-top-nav--masthead ul { gap: 1rem; }
+.custom-top-nav--masthead a { color: #fff; }
+.masthead .custom-top-nav--masthead a { color: inherit; }
+</style>
+
+<script src="/assets/js/custom-nav.js"></script>

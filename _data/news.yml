@@ -1,0 +1,20 @@
+ - id: 1
+   title: "Call for papers: Software Mining Workshop 2026"
+   date: 2026-02-15
+   summary: "Submit your latest work on software mining techniques and applications. Short papers and tool papers welcome."
+   link: "/news/call-software-mining-2026/"
+   tags: [call, workshop]
+
+ - id: 2
+   title: "MODES Lab at ICSE 2025"
+   date: 2025-05-04
+   summary: "Members of the MODES Lab presented three papers and a tutorial at ICSE 2025 in Lisbon. Slides and materials are available."
+   link: "/news/modes-at-icse-2025/"
+   tags: [conference, talk]
+
+ - id: 3
+   title: "Open Position: PhD in Model-Driven Engineering"
+   date: 2025-11-01
+   summary: "We are accepting applications for a fully-funded PhD position starting in 2026. See details and application instructions."
+   link: "/work-with-us/positions/phd-2026/"
+   tags: [job, phd]

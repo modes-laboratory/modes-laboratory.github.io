@@ -1,0 +1,47 @@
+# Jekyll / GitHub Pages
+/.sass-cache
+/.jekyll-cache
+/.jekyll-metadata
+/_site
+/.bundle
+/vendor/bundle
+
+# Ruby
+*.gem
+*.rbc
+/.config
+/coverage/
+/pkg
+
+# Node
+/node_modules
+/npm-debug.log*
+/yarn-debug.log*
+/yarn-error.log*
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+/.vscode/
+/.idea/
+*.swp
+
+# Environment
+.env
+.env.*
+
+# other
+/logs
+/*.log
+*.tmp
+*.temp
+
+# If you build assets locally (e.g. via webpack), ignore build outputs
+/dist/
+/public/
+
+# Ignore vendor cache
+/vendor
+
+# Optional: ignore search.json if you don't want it committed
+# search.json
