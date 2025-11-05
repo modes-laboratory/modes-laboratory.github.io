@@ -4,12 +4,20 @@ on:
   push:
     branches: [ main ]
 
+# Ensure the workflow has the permissions required to push built files.
+permissions:
+  contents: write
+  pages: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          # ensure the runner keeps the token so deployment actions can push
+          persist-credentials: true
 
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
