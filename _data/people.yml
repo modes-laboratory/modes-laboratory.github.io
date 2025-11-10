@@ -3,7 +3,7 @@
 - name: "Dr. Juri Di Rocco"
   role: "Lead - Researcher"
   email: "juri.dirocco@example.com"
-  bio: "Researcher focusing on Model-Driven Engineering and software mining. Lead of the MODES laboratory."
+  bio: "Juri Di Rocco is a tenure-track assistant professor at the Department of Information Engineering, Computer Science, and Mathematics of the University of L’Aquila. He is interested in all aspects of software language engineering.His main research interests focus on various aspects of Model-Driven Engineering (MDE), including domain-specific modeling languages, recommender systems for MDE, modeling repositories, and mining techniques. He is currently also working on AI-driven software engineering, empirical software engineering methodologies, and collaborative modeling platforms. He serves and has served on the organization and program committees of more than 50 international events, ents, including MODELS, STAF, ICSE, and SANER. Web: https://jdirocco.github.io."
   photo: "/assets/images/people/juri.jpg" # optional: assets/images/juri.jpg
 
 - name: "Prof. Davide Di Ruscio"
@@ -27,7 +27,7 @@
 - name: "Prof. Phuong Than Nguyen"
   role: "Associate Professor"
   email: "phuong.nguyen@example.com"
-  bio: "Researcher working on model assistants and recommender systems for software engineering."
+  bio: "Phuong Than Nguyen is Associate Professor at the University of L’Aquila, Italy. He obtained a Ph.D. in Computer Science from the University of Jena, Germany. He was a postdoctoral researcher at Polytechnic University of Bari and the University of L’Aquila. His research interests include Recommender Systems, Mining Software Repositories, and Machine Learning. Recently, He has been working to develop recommender systems for Software Engineering, mining open source code repositories to support software programmers."
   photo: ""
 
 - name: "Dr. Claudio Di Sipio"
@@ -45,6 +45,6 @@
 - name: "Dr. Damiano Di Vincenzo"
   role: "Post-doc / Research Fellow"
   email: "damiano.divincenzo@example.com"
-  bio: "Works on model transformations and tool support for MDE."
+  bio: "Damiano Di Vincenzo graduated in Computer Science with a thesis on encoding the Ecore and EMF frameworks within the Angular/Node.js ecosystem. He holds a Master’s degree in Web Technologies. Since 2020, he has been the principal designer of the Jjodel modeling platform and currently serves as Co-Chief Architect of the overall project. His research and development work  led to several publications on topics related to Jjodel, covering language design, platform architecture, and model-driven engineering."
   photo: ""
 
