@@ -4,7 +4,7 @@
   role: "Lead - Researcher"
   email: "juri.dirocco@example.com"
   bio: "Researcher focusing on Model-Driven Engineering and software mining. Lead of the MODES laboratory."
-  photo: "" # optional: assets/images/juri.jpg
+  photo: "/assets/images/people/juri.jpg" # optional: assets/images/juri.jpg
 
 - name: "Prof. Davide Di Ruscio"
   role: "Full Professor"
@@ -15,13 +15,13 @@
 - name: "Prof. Alfonso Pierantonio"
   role: "Full Professor"
   email: "alfonso.pierantonio@example.com"
-  bio: "Alfonso Pierantonio is Full Professor in the Dipartimento di Ingegneria e Scienze dell’Informazione e Matematica of Università degli Studi dell’Aquila. From Jan 2016, he is visiting full professor at the Mälardalens University (Sweden). Alfonso’s expertise lies in the area of software engineering and, in particular, model-driven and language engineering and low-code with special attention to co-evolution techniques, consistency management, and bidirectionality. Recently, he has been focusing on the classification and clustering of modeling artifact repositories. He has been on the organizingv committees of several international conferences and is a member of the steering committee of the MoDELS conference. Alfonso is Editor-in-Chief of the Journal of Object Technology, in the Editorial Board of the Journal of Software and System Modeling, and on the Science of Computer Programming advisory board. He is (co-)principal investigator of several research and industrial projects"
+  bio: "Alfonso Pierantonio is Full Professor in the Dipartimento di Ingegneria e Scienze dell’Informazione e Matematica of Università degli Studi dell’Aquila. From Jan 2016, he is visiting full professor at the Mälardalens University (Sweden). Alfonso’s expertise lies in the area of software engineering and, in particular, model-driven and language engineering and low-code with special attention to co-evolution techniques, consistency management, and bidirectionality. Recently, he has been focusing on the classification and clustering of modeling artifact repositories. He has been on the organizingv committees of several international conferences and is a member of the steering committee of the MoDELS conference. Alfonso is Editor-in-Chief of the Journal of Object Technology, in the Editorial Board of the Journal of Software and System Modeling, and on the Science of Computer Programming advisory board. He is (co-)principal investigator of several research and industrial projects."
   photo: ""
 
 - name: "Prof. Antonio Bucchiarone"
   role: "Associate Professor"
   email: "phuong.nguyen@example.com"
-  bio: "Gamification GOD."
+  bio: "Antonio Bucchiarone is currently an Associate Professor at the University of L'Aquila and a Visiting Fellow at Fondazione Bruno Kessler (FBK) in Trento, Italy. He specializes in adaptive systems, motivational digital systems using gamification, intelligent mobility, and the design and development of educational tools. His research focuses on models and tools for adaptive (collective) systems, modeling and development languages for motivational digital systems, and educational tools supported by and based on Model-Driven Engineering. Dr. Bucchiarone has contributed to numerous national and European R&D projects, including the Erasmus+ project ENCORE. He is a Senior Member of IEEE and a member of the Italian chapter of the IEEE Intelligent Transportation Systems Society. He also serves as an Associate Editor for several journals, including IEEE Software, Journal of Object Technology (JOT), IEEE Transactions on Education, IEEE Transactions on Games, IEEE Transactions on Intelligent Transportation Systems (T-ITS), and IEEE Technology and Society."
   photo: ""
 
 - name: "Prof. Phuong Than Nguyen"
@@ -48,8 +48,3 @@
   bio: "Works on model transformations and tool support for MDE."
   photo: ""
 
-- name: "Dr. Giordano Tinella"
-  role: "Post-doc / Research Fellow"
-  email: "giordano.tinella@example.com"
-  bio: "Researcher in software mining and data-driven engineering tools."
-  photo: ""

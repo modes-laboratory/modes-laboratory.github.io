@@ -8,13 +8,24 @@ permalink: /people/
 
 
 {% for person in site.data.people %}
-#### {{ person.name }}
+<article class="person">
+	{% if person.image %}
+	<img src="{{ person.image | relative_url }}" alt="Photo of {{ person.name }}" class="person-photo">
+	{% endif %}
 
-**Role:** {{ person.role }}
+		<div class="person-body">
+			<h4 class="person-name">{{ person.name }}</h4>
 
-{% if person.email %}Email: [{{ person.email }}](mailto:{{ person.email }}){% endif %}
+			<p class="person-role"><strong>Role:</strong> {{ person.role }}</p>
 
-{{ person.bio }}
+			{% if person.email %}
+			<p class="person-email"><a href="mailto:{{ person.email }}">{{ person.email }}</a></p>
+			{% endif %}
+
+			<div class="person-bio">{{ person.bio | markdownify }}</div>
+		</div>
+
+</article>
 
 ---
 {% endfor %}
