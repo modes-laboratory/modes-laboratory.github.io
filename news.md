@@ -3,9 +3,6 @@ title: "News"
 layout: single
 permalink: /news/
 ---
-
- 
-News, announcements and events from the MODES laboratory will be posted here. Use this page to share calls, workshop information, and important updates.
 {% assign news = site.data.news | sort: 'date' | reverse %}
 
 <div class="news-list">

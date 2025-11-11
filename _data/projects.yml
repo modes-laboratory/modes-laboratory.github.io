@@ -2,29 +2,39 @@
   id: ossmeter
   title: OSSMETER
   year: 2021
-  summary: "Open-source software quality assessment and metrics tooling. We developed automated analyses and dashboards to help projects track metrics over time."
+  summary: "OSSMETER aims to extend the state-of-the-art in the field of automated analysis and measurement of open-source software (OSS), and develop a platform that will support decision makers in the process of discovering, comparing, assessing and monitoring the health, quality, impact and activity of open-source software. To achieve this, OSSMETER will compute trustworthy quality indicators by performing advanced analysis and integration of information from diverse sources including the project metadata, source code repositories, communication channels and bug tracking systems of OSS projects. OSSMETER does not aim at building another OSS forge but instead at providing a meta-platform for analysing existing OSS projects that are developed in existing OSS forges and foundations such as SourceForge, Google Code, GitHub, Eclipse, Mozilla and Apache."
   partners:
     - University of L'Aquila
     - Rete Ferroviaria Italiana
-  link: "https://example.com/ossmeter"
+  link: "http://www.ossmeter.org/"
   image: "/assets/images/projects/ossmeter.png"
 
 -
   id: typhon
   title: TYPHON
   year: 2020
-  summary: "A research project on automated program analysis and model mining focused on scalable, language-agnostic approaches."
+  summary: "The aim of TYPHON is to provide an industry-validated methodology and integrated technical offering for designing, developing, querying, evolving, analysing and monitoring scalable hybrid data persistence architectures that will meet the growing scalability and heterogeneity requirements of the European industry, which drives the project through four use cases from the domains of automotive, earth observation, banking, and telecom."
   partners:
     - European Consortium
-  link: "https://example.com/typhon"
+  link: "https://www.typhon-project.org/"
   image: "/assets/images/projects/typhon.png"
 
 -
   id: crossminer
   title: CROSSMINER
   year: 2019
-  summary: "Cross-repository mining and analysis tools for extracting usage patterns and API evolution trends."
+  summary: "CROSSMINER enables the monitoring, in-depth analysis and evidence-based selection of open source components, and facilitates knowledge extraction from large open-source software repositories."
   partners:
     - Industrial Partner A
-  link: "https://example.com/crossminer"
+  link: "https://www.crossminer.org/"
+  image: "/assets/images/projects/crossminer.png"
+
+-
+  id: mosaico
+  title: MOSAICO
+  year: 2025
+  summary: "MOSAICO is an ambitious European research project poised to revolutionize the field of software development. Funded by the Horizon Europe program, MOSAICO aims to empower developers by enabling seamless collaboration between artificial intelligence (AI) agents. This innovative project seeks to address the growing complexity of software development by fostering a new era of human-AI collaboration. MOSAICO will develop a dedicated platform and communication protocols that allow developers to effectively coordinate and orchestrate multiple AI agents, unlocking new levels of efficiency and innovation. Our mission encompasses building a vibrant ecosystem where AI seamlessly integrates into the software development lifecycle. We will explore the potential of AI-driven solutions, while ensuring ethical considerations, data privacy, and the responsible development of AI technologies are at the forefront of our endeavors."
+  partners:
+    - Industrial Partner A
+  link: "https://mosaico-project.eu/"
   image: "/assets/images/projects/crossminer.png"

@@ -1,7 +1,3 @@
-- name: "Twitter"
-  url: "https://twitter.com/your_account"
-  icon: "fab fa-twitter"
-
 - name: "GitHub"
-  url: "https://github.com/your_account"
+  url: "https://github.com/modes-laboratory"
   icon: "fab fa-github"
