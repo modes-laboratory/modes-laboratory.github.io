@@ -185,20 +185,36 @@ body .site-main__inner,
 .project-summary-more{display:inline}
 .project-summary-ellipsis{display:inline}
 
-/* People page styles */
-.person{display:flex;gap:1.25rem;align-items:flex-start;padding:0.9rem 0;border-bottom:1px solid rgba(0,0,0,0.04)}
-.person-photo{width:96px;height:96px;object-fit:cover;border-radius:8px;flex:0 0 96px;box-shadow:0 6px 16px rgba(10,10,10,0.08)}
-.person-body{flex:1}
-.person-body h4, .person-body h3{margin:0 0 0.25rem 0;font-size:1.05rem}
+/* People grid: centered circular avatars and name/role centered like the provided design */
+.people-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:2.25rem;align-items:start;padding:0;margin:0}
+.people-grid .person{background:transparent;border-radius:8px;padding:0.5rem 0;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:0.5rem}
+.person-photo-wrap{width:160px;height:160px;border-radius:50%;overflow:hidden;display:inline-block;border:6px solid rgba(255,255,255,0.04);box-shadow:0 10px 30px rgba(10,10,10,0.12);background:#fff}
+.person-photo{width:100%;height:100%;object-fit:cover;display:block;border-radius:50%}
+.person-name{margin:0;font-size:1.05rem;color:#8fa0a3;font-weight:600}
+.person-role{margin:0;font-size:0.9rem;color:#8fa0a3c1;margin-top:0.2rem}
+.person-meta{display:flex;gap:0.6rem;justify-content:center;align-items:center;margin-top:0.35rem}
+.person-contact{color:var(--muted);background:transparent;border-radius:6px;padding:0.18rem 0.3rem;display:inline-flex;align-items:center;justify-content:center}
+.person-contact i{font-size:14px}
 
-/* Larger profile images on wide screens */
-@media (min-width:1100px){
-  .person-photo{width:128px;height:128px;flex:0 0 128px;border-radius:10px}
-  .person{gap:1.5rem;padding:1rem 0}
-  .person-body h4, .person-body h3{font-size:1.125rem}
+/* Hover/focus lift effect for person cards */
+.people-grid .person{transition:transform .22s ease, box-shadow .22s ease;will-change:transform}
+.people-grid .person:hover,
+.people-grid .person:focus-within{transform:translateY(-8px);box-shadow:0 22px 48px rgba(10,10,10,0.14)}
+.people-grid .person:active{transform:translateY(-4px)}
+.person-contact{transition:transform .18s ease,color .18s ease,background .18s ease}
+.people-grid .person:hover .person-contact{color:var(--accent);transform:translateY(-2px);background:rgba(0,0,0,0.04)}
+
+@media (min-width:1000px){
+  .people-grid{grid-template-columns:repeat(5,1fr)}
+  .person-photo-wrap{width:150px;height:150px}
 }
 
-@media (max-width:700px){
-  .person{flex-direction:column;align-items:flex-start}
-  .person-photo{width:80px;height:80px;margin-bottom:0.5rem}
+@media (max-width:900px){
+  .people-grid{grid-template-columns:repeat(2,1fr)}
+  .person-photo-wrap{width:120px;height:120px}
+}
+
+@media (max-width:480px){
+  .people-grid{grid-template-columns:repeat(1,1fr)}
+  .person-photo-wrap{width:110px;height:110px}
 }
