@@ -1,115 +1,457 @@
-# Key publications from MODES Lab members — journals and top conferences
+# Publications from MODES Lab members — journals and top conferences, 2021–present
+# Deduplicated across: Di Rocco, Di Ruscio, Pierantonio, Nguyen
 
-# === JOURNALS ===
+# ===== 2026 =====
 
-- id: zeshan_manyhands_2026
-  title: "Many hands make light work: An LLM-based multi-agent system for detecting malicious PyPI packages"
-  authors: Zeshan, Muhammad Umar and Ibiyo, Motunrayo and Di Sipio, Claudio and Nguyen, Phuong T. and Di Ruscio, Davide
+- id: nguyen_summarization_ase2026
+  title: "Automated Summarization of Software Documents: An LLM-based Multi-Agent Approach"
+  authors: Nguyen, Duc S.H. and Nguyen, Minh T. and Nguyen, Phuong T. and Di Rocco, Juri and Di Ruscio, Davide
   year: 2026
-  venue: Journal of Systems and Software (JSS)
-  url: https://doi.org/10.1016/j.jss.2026.112792
+  venue: "Automated Software Engineering (AUSE)"
   type: journal
 
+- id: diruscio_llm_multiagent_2026
+  title: "Engineering LLM-based Multi-Agent Systems: A Taxonomy of Emerging Frameworks"
+  authors: Di Ruscio, Davide and Nguyen, Phuong T. and Di Sipio, Claudio and Rubei, Riccardo and Di Rocco, Juri
+  year: 2026
+  venue: "IEEE Software"
+  type: journal
+
+- id: zeshan_manyhands_2026
+  title: "Many Hands Make Light Work: An LLM-based Multi-Agent System for Detecting Malicious PyPI Packages"
+  authors: Zeshan, Muhammad Umar and Ibiyo, Motunrayo and Di Sipio, Claudio and Nguyen, Phuong T. and Di Ruscio, Davide
+  year: 2026
+  venue: "Journal of Systems and Software (JSS)"
+  type: journal
+
+- id: scappa_blockchain_saner2026
+  title: "Model Persistence in Distributed Environments: Change-Based Encoding on Blockchain"
+  authors: Scappa, Marco and Di Rocco, Juri and Pierantonio, Alfonso
+  year: 2026
+  venue: "IEEE SANER 2026"
+  type: conference
+
+- id: pierantonio_cognitive_sosym2026
+  title: "The Cognitive Science of Modeling Tools"
+  authors: Pierantonio, Alfonso and Gozzano, Simone and Mazza, Massimo
+  year: 2026
+  venue: "Software and Systems Modeling (SoSyM)"
+  type: journal
+
+- id: cortellessa_cps_quality_2026
+  title: "Model-Driven Quality Analysis of Cyber-Physical Systems: State of the Art and Perspectives"
+  authors: Cortellessa, Vittorio and Di Ruscio, Davide and Lombardi, Tommaso and Pierantonio, Alfonso
+  year: 2026
+  venue: "MODELSWARD 2026"
+  type: conference
+
+# ===== 2025 =====
+
 - id: dirocco_llm_mde_2025
-  title: "On the use of large language models in model-driven engineering"
+  title: "On the Use of Large Language Models in Model-Driven Engineering"
   authors: Di Rocco, Juri and Di Ruscio, Davide and Di Sipio, Claudio and Nguyen, Phuong T. and Rubei, Riccardo
   year: 2025
-  venue: Software and Systems Modeling (SoSyM)
+  venue: "Software and Systems Modeling (SoSyM)"
   url: https://doi.org/10.1007/s10270-025-01263-8
   type: journal
 
-- id: dirocco_deepmig_2024
-  title: "DeepMig: a transformer-based approach to support coupled library and code migrations"
+- id: bucchiarone_jjodel_2025
+  title: "Modeling in Jjodel: Towards Bridging Complexity and Usability in Model-Driven Engineering"
+  authors: Bucchiarone, Antonio and Di Rocco, Juri and Di Vincenzo, Damiano and Pierantonio, Alfonso
+  year: 2025
+  venue: "Software and Systems Modeling (SoSyM)"
+  type: journal
+
+- id: tolvanen_coevolution_2025
+  title: "A Framework for Evaluating Tool Support for Co-Evolution of Modeling Languages, Tools and Models"
+  authors: Tolvanen, Juha-Pekka and Kelly, Steven and Di Rocco, Juri and Pierantonio, Alfonso and Tinella, Gianluca
+  year: 2025
+  venue: "Software and Systems Modeling (SoSyM)"
+  type: journal
+
+- id: dirocco_deepmig_2025
+  title: "DeepMig: A Transformer-based Approach to Support Coupled Library and Code Migrations"
   authors: Di Rocco, Juri and Nguyen, Phuong T. and Di Sipio, Claudio and Rubei, Riccardo and Di Ruscio, Davide and Di Penta, Massimiliano
-  year: 2024
-  venue: Information and Software Technology (IST)
+  year: 2025
+  venue: "Information and Software Technology (IST)"
   url: https://doi.org/10.1016/j.infsof.2024.107588
   type: journal
 
+- id: fontana_satd_ist2025
+  title: "Binary and Multi-Class Classification of Self-Admitted Technical Debt: How Far Can We Go?"
+  authors: Fontana, Francesca Arcelli and Di Rocco, Juri and Di Ruscio, Davide and Di Salle, Amleto and Nguyen, Phuong T.
+  year: 2025
+  venue: "Information and Software Technology (IST)"
+  type: journal
+
+- id: rubei_atl_energy_2025
+  title: "On the Energy Consumption of ATL Transformations"
+  authors: Rubei, Riccardo and Di Rocco, Juri and Di Ruscio, Davide
+  year: 2025
+  venue: "Software: Practice and Experience (SPE)"
+  type: journal
+
+- id: ho_ensesmells_jss2025
+  title: "EnseSmells: Deep Ensemble and Programming Language Models for Automated Code Smells Detection"
+  authors: Ho, Anh and Bui, Anh M.T. and Nguyen, Phuong T. and Di Salle, Amleto and Le, Bac
+  year: 2025
+  venue: "Journal of Systems and Software (JSS)"
+  type: journal
+
+- id: burgueno_automation_tosem2025
+  title: "Automation in Model-Driven Engineering: A Look Back, and Ahead"
+  authors: Burgueño, Loli and Di Ruscio, Davide and Sahraoui, Houari and Wimmer, Manuel
+  year: 2025
+  venue: "ACM Transactions on Software Engineering and Methodology (TOSEM)"
+  type: journal
+
+- id: nguyen_teamwork_fse2025
+  title: "Teamwork Makes the Dream Work: LLMs-Based Agents for GitHub README.MD Summarization"
+  authors: Nguyen, Duc S.H. and Truong, Bach G. and Nguyen, Phuong T. and Di Rocco, Juri and Di Ruscio, Davide
+  year: 2025
+  venue: "ACM FSE 2025"
+  url: https://doi.org/10.1145/3696630.3728511
+  type: conference
+
+- id: disipio_popbias_saner2025
+  title: "Addressing Popularity Bias in Third-Party Library Recommendations Using LLMs"
+  authors: Di Sipio, Claudio and Di Rocco, Juri and Di Ruscio, Davide and Bulhakov, Viktor
+  year: 2025
+  venue: "IEEE SANER 2025"
+  type: conference
+
+- id: palombo_codexhug_seaa2025
+  title: "Generate with CodeXHug: A Dataset to Enhance Model Cards with Code Usage Patterns"
+  authors: Palombo, Sara and Di Sipio, Claudio and Di Rocco, Juri and Di Ruscio, Davide
+  year: 2025
+  venue: "EUROMICRO SEAA 2025"
+  type: conference
+
+- id: bucchiarone_smart_ecosystems_models2025
+  title: "Modeling: The Heart and Soul of Engineering Smart Ecosystems"
+  authors: Bucchiarone, Antonio and Combemale, Benoit and Pierantonio, Alfonso and Bencomo, Nelly and others
+  year: 2025
+  venue: "ACM/IEEE MoDELS 2025"
+  type: conference
+
+# ===== 2024 =====
+
 - id: nguyen_gptsniffer_2024
-  title: "GPTSniffer: A CodeBERT-based Classifier to Detect Code Written by ChatGPT"
+  title: "GPTSniffer: A CodeBERT-based Classifier to Detect Source Code Written by ChatGPT"
   authors: Nguyen, Phuong T. and Di Rocco, Juri and Di Sipio, Claudio and Rubei, Riccardo and Di Ruscio, Davide and Di Penta, Massimiliano
   year: 2024
-  venue: Journal of Systems and Software (JSS)
+  venue: "Journal of Systems and Software (JSS)"
   url: https://doi.org/10.1016/j.jss.2024.112059
   type: journal
+
+- id: indamutsa_discovery_spe2024
+  title: "Advanced Discovery Mechanisms in Model Repositories"
+  authors: Indamutsa, Adrien and Di Rocco, Juri and Almonte, Lissette and Di Ruscio, Davide and Pierantonio, Alfonso
+  year: 2024
+  venue: "Software: Practice and Experience (SPE)"
+  type: journal
+
+- id: diruscio_leveraging_privacy_ause2024
+  title: "Leveraging Privacy Profiles to Empower Users in the Digital Society"
+  authors: Di Ruscio, Davide and Inverardi, Paola and Migliarini, Patrizio and Nguyen, Phuong T.
+  year: 2024
+  venue: "Automated Software Engineering (AUSE)"
+  type: journal
+
+- id: disipio_lev4rec_jcl2024
+  title: "LEV4REC: A Feature-based Approach to Engineering RSSEs"
+  authors: Di Sipio, Claudio and Di Rocco, Juri and Di Ruscio, Davide and Nguyen, Phuong T.
+  year: 2024
+  venue: "Journal of Computer Languages (COLA)"
+  type: journal
+
+- id: diruscio_amino_jsep2024
+  title: "AMINO: A Quality Assessment Framework for Modeling Ecosystems"
+  authors: Di Ruscio, Davide and Iovino, Ludovico and Pierantonio, Alfonso
+  year: 2024
+  venue: "Journal of Software: Evolution and Process (JSEP)"
+  type: journal
+
+- id: eisenberg_momot_ist2024
+  title: "Multi-objective Model Transformation Chain Exploration with MOMoT"
+  authors: Eisenberg, Markus and Sahay, Aamir and Di Ruscio, Davide and Iovino, Ludovico and Wimmer, Manuel and Pierantonio, Alfonso
+  year: 2024
+  venue: "Information and Software Technology (IST)"
+  type: journal
+
+- id: ihirwe_chessiot_jcl2024
+  title: "CHESSIoT: A Model-Driven Approach for Engineering Multi-Layered IoT Systems"
+  authors: Ihirwe, Feston and Di Ruscio, Davide and Gianfranceschi, Simone and Pierantonio, Alfonso
+  year: 2024
+  venue: "Journal of Computer Languages (COLA)"
+  type: journal
+
+- id: ihirwe_safety_iot_jcl2024
+  title: "Supporting Model-Based Safety Analysis for Safety-Critical IoT Systems"
+  authors: Ihirwe, Feston and Di Ruscio, Davide and Di Blasio, Kevin and Gianfranceschi, Simone and Pierantonio, Alfonso
+  year: 2024
+  venue: "Journal of Computer Languages (COLA)"
+  type: journal
+
+- id: alfieri_privacy_github_emse2024
+  title: "Exploring User Privacy Awareness on GitHub: An Empirical Study"
+  authors: Alfieri, Claudio and Di Rocco, Juri and Inverardi, Paola and Nguyen, Phuong T.
+  year: 2024
+  venue: "Empirical Software Engineering (EMSE)"
+  type: journal
+
+- id: bettini_edelta_jss2024
+  title: "Supporting Reusable Model Migration with Edelta"
+  authors: Bettini, Lorenzo and Di Ruscio, Davide and Di Salle, Amleto and Iovino, Ludovico and Pierantonio, Alfonso
+  year: 2024
+  venue: "Journal of Systems and Software (JSS)"
+  type: journal
+
+- id: basciani_typhonml_scico2024
+  title: "TyphonML: Tool Support for Hybrid Polystores"
+  authors: Basciani, Francesco and Di Rocco, Juri and Iovino, Ludovico and Pierantonio, Alfonso
+  year: 2024
+  venue: "Science of Computer Programming (SCICO)"
+  type: journal
+
+- id: hai_techdebt_tosem2024
+  title: "Detection of Technical Debt in Java Source Code"
+  authors: Le Hai, Nguyen and Bui, Anh M.T. and Nguyen, Phuong T. and Di Ruscio, Davide and Kazman, Rick
+  year: 2024
+  venue: "ACM Transactions on Software Engineering and Methodology (TOSEM)"
+  type: journal
+
+- id: disipio_llms_dsml_models2024
+  title: "On the Use of LLMs to Support the Development of Domain-Specific Modeling Languages"
+  authors: Di Sipio, Claudio and Rubei, Riccardo and Di Rocco, Juri and Di Ruscio, Davide and Iovino, Ludovico
+  year: 2024
+  venue: "ACM/IEEE MoDELS 2024"
+  type: conference
+
+- id: bettini_edelta_models2024
+  title: "Keeping Clients' Models Up-to-Date with Edelta"
+  authors: Bettini, Lorenzo and Di Ruscio, Davide and Di Salle, Amleto and Iovino, Ludovico and Pierantonio, Alfonso
+  year: 2024
+  venue: "ACM/IEEE MoDELS 2024"
+  type: conference
+
+- id: nguyen_github_actions_esem2024
+  title: "Automatic Categorization of GitHub Actions with Transformers and Few-Shot Learning"
+  authors: Nguyen, Phuong T. and Di Rocco, Juri and Di Sipio, Claudio and Shakya, Manish and Di Ruscio, Davide and Di Penta, Massimiliano
+  year: 2024
+  venue: "ACM/IEEE ESEM 2024"
+  type: conference
+
+- id: disipio_pretrained_ease2024
+  title: "Automated Categorization of Pre-Trained Models in Software Engineering: A Case Study with Hugging Face"
+  authors: Di Sipio, Claudio and Rubei, Riccardo and Di Rocco, Juri and Di Ruscio, Davide and Nguyen, Phuong T.
+  year: 2024
+  venue: "ACM EASE 2024"
+  type: conference
+  award: "Best Paper Award EASE 2024"
+
+# ===== 2023 =====
+
+- id: disipio_morgan_sosym2023
+  title: "MORGAN: A Modeling Recommender System Based on Graph Kernel"
+  authors: Di Sipio, Claudio and Di Rocco, Juri and Di Ruscio, Davide and Nguyen, Phuong T.
+  year: 2023
+  venue: "Software & Systems Modeling (SoSyM)"
+  type: journal
+
+- id: dirocco_hybridrec_apin2023
+  title: "HybridRec: A Recommender System for Tagging GitHub Repositories"
+  authors: Di Rocco, Juri and Di Ruscio, Davide and Di Sipio, Claudio and Nguyen, Phuong T. and Rubei, Riccardo
+  year: 2023
+  venue: "Applied Intelligence (APIN)"
+  url: https://doi.org/10.1007/s10489-022-03864-y
+  type: journal
+
+- id: sas_gitranking_spe2023
+  title: "GitRanking: A Ranking of GitHub Topics for Software Classification Using Active Sampling"
+  authors: Sas, Claudiu and Capiluppi, Andrea and Di Sipio, Claudio and Di Rocco, Juri and Di Ruscio, Davide
+  year: 2023
+  venue: "Software: Practice and Experience (SPE)"
+  type: journal
+
+- id: nguyen_apipuzzles_eswa2023
+  title: "Fitting Missing API Puzzles with Machine Translation Techniques"
+  authors: Nguyen, Phuong T. and Di Sipio, Claudio and Di Rocco, Juri and Di Ruscio, Davide and Di Penta, Massimiliano
+  year: 2023
+  venue: "Expert Systems with Applications (ESWA)"
+  type: journal
+
+- id: diruscio_techdebt_coupled_ist2023
+  title: "A Modeling Assistant to Manage Technical Debt in Coupled Evolution"
+  authors: Di Ruscio, Davide and Di Salle, Amleto and Iovino, Ludovico and Pierantonio, Alfonso
+  year: 2023
+  venue: "Information and Software Technology (IST)"
+  type: journal
+
+- id: sahay_bpm_lowcode_spe2023
+  title: "Analyzing Business Process Management Capabilities of Low-Code Development Platforms"
+  authors: Sahay, Aamir and Di Ruscio, Davide and Iovino, Ludovico and Pierantonio, Alfonso
+  year: 2023
+  venue: "Software: Practice and Experience (SPE)"
+  type: journal
+
+- id: disipio_lev4rec_jcl2023
+  title: "LEV4REC: A Feature-based Approach to Engineering Recommender Systems for Software Engineering"
+  authors: Di Sipio, Claudio and Di Rocco, Juri and Di Ruscio, Davide and Nguyen, Phuong T.
+  year: 2023
+  venue: "Journal of Computer Languages (COLA)"
+  award: "Best Paper Award COLA 2023"
+  type: journal
+
+- id: dirocco_jjodel_models2023
+  title: "JJodel — A Reflective Cloud-Based Modeling Framework"
+  authors: Di Rocco, Juri and Di Ruscio, Davide and Di Salle, Amleto and Di Vincenzo, Damiano and Pierantonio, Alfonso and others
+  year: 2023
+  venue: "ACM/IEEE MoDELS 2023"
+  type: conference
+
+- id: nguyen_popbias_msr2023
+  title: "Dealing with Popularity Bias in Recommender Systems for Third-Party Libraries: How Far Are We?"
+  authors: Nguyen, Phuong T. and Rubei, Riccardo and Di Rocco, Juri and Di Sipio, Claudio and Di Ruscio, Davide and Di Penta, Massimiliano
+  year: 2023
+  venue: "IEEE/ACM MSR 2023"
+  type: conference
+
+- id: doan_tldr_ease2023
+  title: "Too Long; Didn't Read: Automatic Summarization of GitHub README.md with Transformers"
+  authors: Doan, Thi T.H. and Nguyen, Phuong T. and Di Rocco, Juri and Di Ruscio, Davide
+  year: 2023
+  venue: "ACM EASE 2023"
+  type: conference
+
+- id: clerissi_safety_iot_models2023
+  title: "Supporting Early-Safety Analysis of IoT Systems by Exploiting Testing Techniques"
+  authors: Clerissi, Diego and Di Rocco, Juri and Di Ruscio, Davide and Di Sipio, Claudio and Ihirwe, Feston and Mariani, Leonardo and others
+  year: 2023
+  venue: "ACM/IEEE MoDELS 2023"
+  type: conference
+
+- id: basciani_quality_mcda_icsa2023
+  title: "A Customizable Approach to Assess Software Quality through Multi-Criteria Decision Making"
+  authors: Basciani, Francesco and Di Pompeo, Dario and Di Rocco, Juri and Pierantonio, Alfonso
+  year: 2023
+  venue: "IEEE ICSA Companion 2023"
+  type: conference
+
+# ===== 2022 =====
 
 - id: dirocco_memorec_2022
   title: "MemoRec: A Recommender System for Assisting Modelers in Specifying Metamodels"
   authors: Di Rocco, Juri and Di Ruscio, Davide and Di Sipio, Claudio and Nguyen, Phuong T. and Pierantonio, Alfonso
   year: 2022
-  venue: Software and Systems Modeling (SoSyM)
+  venue: "Software and Systems Modeling (SoSyM)"
   url: https://doi.org/10.1007/s10270-022-00994-2
   award: "SoSyM First Paper Award 2022"
   type: journal
 
-- id: disipio_lev4rec_2023
-  title: "LEV4REC: A Feature-based Approach to Engineering RSSEs"
-  authors: Di Sipio, Claudio and Di Rocco, Juri and Di Ruscio, Davide and Nguyen, Phuong T.
-  year: 2023
-  venue: Journal of Computer Languages (COLA)
-  url: https://doi.org/10.1016/j.cola.2023.101256
-  award: "Best Paper Award COLA 2023"
+- id: diruscio_lowcode_mde_sosym2022
+  title: "Low-Code Development and Model-Driven Engineering: Two Sides of the Same Coin?"
+  authors: Di Ruscio, Davide and Kolovos, Dimitrios and de Lara, Juan and Pierantonio, Alfonso and Tisi, Massimo and Wimmer, Manuel
+  year: 2022
+  venue: "Software and Systems Modeling (SoSyM)"
+  type: journal
+
+- id: nguyen_deeplib_eswa2022
+  title: "DeepLib: Machine Translation Techniques to Recommend Upgrades for Third-Party Libraries"
+  authors: Nguyen, Phuong T. and Di Rocco, Juri and Rubei, Riccardo and Di Sipio, Claudio and Di Ruscio, Davide
+  year: 2022
+  venue: "Expert Systems with Applications (ESWA)"
+  type: journal
+
+- id: rubei_migration_apin2022
+  title: "Providing Upgrade Plans for Third-Party Libraries: A Recommender System Using Migration Graphs"
+  authors: Rubei, Riccardo and Di Ruscio, Davide and Di Sipio, Claudio and Di Rocco, Juri and Nguyen, Phuong T.
+  year: 2022
+  venue: "Applied Intelligence (APIN)"
+  type: journal
+
+- id: bettini_refactoring_sosym2022
+  title: "An Executable Metamodel Refactoring Catalog"
+  authors: Bettini, Lorenzo and Di Ruscio, Davide and Iovino, Ludovico and Pierantonio, Alfonso
+  year: 2022
+  venue: "Software and Systems Modeling (SoSyM)"
+  type: journal
+
+- id: bettini_edelta_stvr2022
+  title: "Supporting Safe Metamodel Evolution with Edelta"
+  authors: Bettini, Lorenzo and Di Ruscio, Davide and Iovino, Ludovico and Pierantonio, Alfonso
+  year: 2022
+  venue: "International Journal on Software Tools for Technology Transfer (STTT)"
+  type: journal
+
+- id: dirocco_nemo_models2022
+  title: "Finding with NEMO: A Recommender System to Forecast the Next Modeling Operations"
+  authors: Di Rocco, Juri and Di Sipio, Claudio and Nguyen, Phuong T. and Di Ruscio, Davide and Pierantonio, Alfonso
+  year: 2022
+  venue: "ACM/IEEE MoDELS 2022"
+  url: https://doi.org/10.1145/3550355.3552459
+  type: conference
+
+- id: rubei_feedback_saner2022
+  title: "Endowing Third-Party Libraries Recommender Systems with Explicit User Feedback Mechanisms"
+  authors: Rubei, Riccardo and Di Sipio, Claudio and Di Rocco, Juri and Di Ruscio, Davide and Nguyen, Phuong T.
+  year: 2022
+  venue: "IEEE SANER 2022"
+  type: conference
+
+- id: di_salle_pilot_techdebt2022
+  title: "PILOT: Synergy Between Text Processing and Neural Networks to Detect Self-Admitted Technical Debt"
+  authors: Di Salle, Amleto and Rota, Andrea and Nguyen, Phuong T. and Di Ruscio, Davide and Fontana, Francesca Arcelli and Sala, Isabella
+  year: 2022
+  venue: "IEEE/ACM International Conference on Technical Debt 2022"
+  type: conference
+
+- id: ihirwe_lowcode_iot_qrs2022
+  title: "Assessing the Quality of Low-Code and Model-Driven Engineering Platforms for Engineering IoT Systems"
+  authors: Ihirwe, Feston and Di Ruscio, Davide and Gianfranceschi, Simone and Pierantonio, Alfonso
+  year: 2022
+  venue: "IEEE QRS 2022"
+  type: conference
+
+# ===== 2021 =====
+
+- id: dirocco_crossminer_emse2021
+  title: "Development of Recommendation Systems for Software Engineering: The CROSSMINER Experience"
+  authors: Di Rocco, Juri and Di Ruscio, Davide and Di Sipio, Claudio and Nguyen, Phuong T. and Rubei, Riccardo
+  year: 2021
+  venue: "Empirical Software Engineering (EMSE)"
+  url: https://doi.org/10.1007/s10664-021-09963-7
   type: journal
 
 - id: nguyen_tserecommend_2021
   title: "Recommending API Function Calls and Code Snippets to Support Software Development"
   authors: Nguyen, Phuong T. and Di Rocco, Juri and Di Sipio, Claudio and Di Ruscio, Davide and Di Penta, Massimiliano
   year: 2021
-  venue: IEEE Transactions on Software Engineering (TSE)
+  venue: "IEEE Transactions on Software Engineering (TSE)"
   url: https://doi.org/10.1109/TSE.2021.3059907
   type: journal
 
-- id: nguyen_evaluation_2021
+- id: nguyen_evaluation_sosym2021
   title: "Evaluation of Machine Learning Classifiers for Metamodels"
   authors: Nguyen, Phuong T. and Di Rocco, Juri and Iovino, Ludovico and Di Ruscio, Davide and Pierantonio, Alfonso
   year: 2021
-  venue: Software and Systems Modeling (SoSyM)
+  venue: "Software and Systems Modeling (SoSyM)"
   url: https://doi.org/10.1007/s10270-021-00913-x
   type: journal
 
-- id: nguyen_crossrec_2020
-  title: "CrossRec: Supporting Software Developers by Recommending Third-party Libraries"
-  authors: Nguyen, Phuong T. and Di Rocco, Juri and Di Ruscio, Davide and Di Penta, Massimiliano
-  year: 2020
-  venue: Journal of Systems and Software (JSS)
-  url: https://doi.org/10.1016/j.jss.2019.110460
-  award: "Best Paper Award + Diamond Best Paper Award JSS 2020"
-  type: journal
-
-- id: dirocco_crossminer_2021
-  title: "Development of Recommendation Systems for Software Engineering: the CROSSMINER Experience"
-  authors: Di Rocco, Juri and Di Ruscio, Davide and Di Sipio, Claudio and Nguyen, Phuong T. and Rubei, Riccardo
-  year: 2021
-  venue: Empirical Software Engineering (EMSE)
-  url: https://doi.org/10.1007/s10664-021-09963-7
-  type: journal
-
-- id: nguyen_convolutional_2020
+- id: nguyen_cnn_metamodels_jss2021
   title: "Convolutional Neural Networks for Enhanced Classification Mechanisms of Metamodels"
-  authors: Nguyen, Phuong T. and Di Rocco, Juri and Di Ruscio, Davide and Pierantonio, Alfonso and Iovino, Ludovico
-  year: 2020
-  venue: Journal of Systems and Software (JSS)
-  url: https://doi.org/10.1016/j.jss.2020.110860
+  authors: Nguyen, Phuong T. and Di Ruscio, Davide and Pierantonio, Alfonso and Di Rocco, Juri and Iovino, Ludovico
+  year: 2021
+  venue: "Journal of Systems and Software (JSS)"
   type: journal
 
-- id: bucchiarone_grand_2020
-  title: "Grand Challenges in Model-Driven Engineering: An Analysis of the State of the Research"
-  authors: Bucchiarone, Antonio and Cabot, Jordi and Paige, Richard F. and Pierantonio, Alfonso
-  year: 2020
-  venue: Software and Systems Modeling (SoSyM)
-  url: https://doi.org/10.1007/s10270-019-00773-6
+- id: bucchiarone_future_modeling_ieeesw2021
+  title: "What Is the Future of Modeling?"
+  authors: Bucchiarone, Antonio and Ciccozzi, Federico and Lambers, Leen and Pierantonio, Alfonso and Tichy, Matthias and Tisi, Massimo and others
+  year: 2021
+  venue: "IEEE Software"
   type: journal
-
-- id: rubei_hybridrec_2023
-  title: "HybridRec: A Recommender System for Tagging GitHub Repositories"
-  authors: Di Rocco, Juri and Di Ruscio, Davide and Di Sipio, Claudio and Nguyen, Phuong T. and Rubei, Riccardo
-  year: 2023
-  venue: Springer Applied Intelligence (APIN)
-  url: https://doi.org/10.1007/s10489-022-03864-y
-  type: journal
-
-# === CONFERENCES ===
 
 - id: dirocco_gnn_models2021
   title: "A GNN-based Recommender System to Assist the Specification of Metamodels and Models"
@@ -120,44 +462,58 @@
   award: "Best Foundation Paper Award MoDELS 2021"
   type: conference
 
-- id: nguyen_automated_models2019
-  title: "Automated Classification of Metamodel Repositories: A Machine Learning Approach"
-  authors: Nguyen, Phuong T. and Di Rocco, Juri and Di Ruscio, Davide and Pierantonio, Alfonso and Iovino, Ludovico
-  year: 2019
-  venue: "ACM/IEEE MoDELS 2019"
-  url: https://doi.org/10.1109/MODELS.2019.00011
-  award: "Best Foundation Paper Award MoDELS 2019"
+- id: nguyen_adversarial_ase2021
+  title: "Adversarial Attacks to API Recommender Systems: Time to Wake Up and Smell the Coffee?"
+  authors: Nguyen, Phuong T. and Di Sipio, Claudio and Di Rocco, Juri and Di Penta, Massimiliano and Di Ruscio, Davide
+  year: 2021
+  venue: "IEEE/ACM ASE 2021"
   type: conference
 
-- id: nguyen_focus_icse2019
-  title: "FOCUS: A Recommender System for Mining API Function Calls and Usage Patterns"
-  authors: Nguyen, Phuong T. and Di Rocco, Juri and Di Ruscio, Davide and Ochoa, Lina and Degueule, Thomas and Di Penta, Massimiliano
-  year: 2019
-  venue: "ICSE 2019"
-  url: https://doi.org/10.1109/ICSE.2019.00109
+- id: rubei_lightweight_models2021
+  title: "A Lightweight Approach for the Automated Classification and Clustering of Metamodels"
+  authors: Rubei, Riccardo and Di Rocco, Juri and Di Ruscio, Davide and Nguyen, Phuong T. and Pierantonio, Alfonso
+  year: 2021
+  venue: "ACM/IEEE MoDELS 2021"
   type: conference
 
-- id: dirocco_nemo_models2022
-  title: "Finding with NEMO: A Recommender System to Forecast the Next Modeling Operations"
-  authors: Di Rocco, Juri and Di Sipio, Claudio and Nguyen, Phuong T. and Di Ruscio, Davide and Pierantonio, Alfonso
-  year: 2022
-  venue: "ACM/IEEE MoDELS 2022"
-  url: https://doi.org/10.1145/3550355.3552459
+- id: divincenzo_syntax_models2021
+  title: "Enhancing Syntax Expressiveness in Domain-Specific Modelling"
+  authors: Di Vincenzo, Damiano and Di Rocco, Juri and Di Ruscio, Davide and Pierantonio, Alfonso
+  year: 2021
+  venue: "ACM/IEEE MoDELS 2021"
   type: conference
 
-- id: nguyen_teamwork_fse2025
-  title: "Teamwork makes the dream work: LLMs-Based Agents for GitHub README.MD Summarization"
-  authors: Nguyen, Duc S.H. and Truong, Bach G. and Nguyen, Phuong T. and Di Rocco, Juri and Di Ruscio, Davide
-  year: 2025
-  venue: "FSE 2025"
-  url: https://doi.org/10.1145/3696630.3728511
+- id: indamutsa_mdeforgewl_models2021
+  title: "MDEForgeWL: Towards Cloud-Based Discovery and Composition of Model Management Services"
+  authors: Indamutsa, Adrien and Di Rocco, Juri and Di Ruscio, Davide and Pierantonio, Alfonso
+  year: 2021
+  venue: "ACM/IEEE MoDELS 2021"
   type: conference
 
-- id: nguyen_crosssim_seaa2018
-  title: "CrossSim: Exploiting Mutual Relationships to Detect Similar OSS Projects"
-  authors: Nguyen, Phuong T. and Di Rocco, Juri and Rubei, Riccardo and Di Ruscio, Davide
-  year: 2018
-  venue: "SEAA 2018"
-  url: https://doi.org/10.1109/SEAA.2018.00069
-  award: "Distinguished Paper Award SEAA 2018"
+- id: disipio_lowcode_recsys2021
+  title: "A Low-Code Tool Supporting the Development of Recommender Systems"
+  authors: Di Sipio, Claudio and Di Rocco, Juri and Di Ruscio, Davide and Nguyen, Phuong T.
+  year: 2021
+  venue: "ACM RecSys 2021"
+  type: conference
+
+- id: ihirwe_cloudbased_iot_models2021
+  title: "Cloud-Based Modeling in IoT Domain: A Survey, Open Challenges and Opportunities"
+  authors: Ihirwe, Feston and Indamutsa, Adrien and Di Ruscio, Davide and Mazzini, Silvia and Pierantonio, Alfonso
+  year: 2021
+  venue: "ACM/IEEE MoDELS 2021"
+  type: conference
+
+- id: basciani_quality_seaa2021
+  title: "Automated Quality Assessment of Interrelated Modeling Artifacts"
+  authors: Basciani, Francesco and Di Ruscio, Davide and Iovino, Ludovico and Pierantonio, Alfonso
+  year: 2021
+  venue: "EUROMICRO SEAA 2021"
+  type: conference
+
+- id: nguyen_adversarial_ease2021
+  title: "Adversarial Machine Learning: On the Resilience of Third-Party Library Recommender Systems"
+  authors: Nguyen, Phuong T. and Di Ruscio, Davide and Di Rocco, Juri and Di Sipio, Claudio and Di Penta, Massimiliano
+  year: 2021
+  venue: "ACM EASE 2021"
   type: conference

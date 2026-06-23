@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Research</title>
+    <meta name="description" content="Model-Driven Engineering and Software Mining Laboratory — University of L'Aquila">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicons/manifest.json">
+    <meta name="theme-color" content="#1A2E40">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/assets/css/custom.css">
+    <script>document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';</script>
+  </head>
+  <body class="layout--default">
+
+    <header class="site-header">
+      <div class="site-header__inner">
+        <div class="site-brand">
+          <a href="/" class="site-title" aria-label="MODES Lab home">
+            <span class="site-logo-wrapper">
+              <img src="/assets/images/modes-logo.png" alt="MODES Lab logo" class="site-logo" onerror="this.style.display='none'">
+            </span>
+            <span class="site-title-text">MODES Lab</span>
+          </a>
+        </div>
+
+        <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+          <span class="visually-hidden">Toggle navigation</span>
+        </button>
+
+        <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+          <ul>
+            
+            
+            
+            
+            <li><a href="/">Home</a></li>
+            
+            
+            
+            
+            <li><a href="/research/" aria-current="page" class="active">Research</a></li>
+            
+            
+            
+            
+            <li><a href="/projects/">Projects</a></li>
+            
+            
+            
+            
+            <li><a href="/publications/">Publications</a></li>
+            
+            
+            
+            
+            <li><a href="/people/">People</a></li>
+            
+            
+            
+            
+            <li><a href="/news/">News</a></li>
+            
+          </ul>
+        </nav>
+
+        <div class="site-header__extras">
+          <div class="social-links" aria-hidden="false">
+            
+              <a class="social-link" href="https://github.com/modes-laboratory" title="GitHub" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github" aria-hidden="true"></i>
+                <span class="visually-hidden">GitHub</span>
+              </a>
+            
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main id="main" class="site-main">
+      
+<div class="site-main__inner">
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <header class="page-header">
+      <h1 class="page-title">Research</h1>
+    </header>
+    <div class="page-content">
+      <h2 id="research-lines">Research Lines</h2>
+
+<p>The MODES Laboratory (Model-Driven Engineering and Software Mining Laboratory) investigates the intersection of Model-Driven Engineering, software repository mining, and artificial intelligence. Our work spans foundational techniques, tool development, and large-scale empirical studies, with a focus on making software engineering more productive and intelligent.</p>
+
+<h3 id="model-driven-engineering-mde">Model-Driven Engineering (MDE)</h3>
+
+<p>We develop languages, tools and techniques for model-driven software engineering. Research topics include:</p>
+
+<ul>
+  <li><strong>Domain-specific modelling languages (DSLs)</strong> — design, analysis and tooling</li>
+  <li><strong>Model transformations</strong> — bidirectional transformations, co-evolution, change propagation (JTL language)</li>
+  <li><strong>Model differencing and conflict management</strong> — detecting and resolving changes across model versions</li>
+  <li><strong>Metamodel management</strong> — classification, clustering and automated analysis of metamodel repositories</li>
+  <li><strong>Low-code development platforms</strong> — scalable engineering of low-code environments</li>
+</ul>
+
+<p><strong>Key members:</strong> Alfonso Pierantonio, Davide Di Ruscio, Juri Di Rocco, Damiano Di Vincenzo</p>
+
+<hr />
+
+<h3 id="mining-software-repositories-msr">Mining Software Repositories (MSR)</h3>
+
+<p>We mine large-scale open-source software repositories to extract knowledge that supports developers and researchers. Topics include:</p>
+
+<ul>
+  <li><strong>Open-source software analysis</strong> — health, quality, activity metrics and dependency management</li>
+  <li><strong>Library migration and upgrade</strong> — automated detection of migration pairs, upgrade plan generation (CrossRec, DeepLib, DeepMig)</li>
+  <li><strong>API usage mining</strong> — recommending API calls, code snippets and usage patterns (FOCUS, CROSSMINER)</li>
+  <li><strong>GitHub repository characterisation</strong> — tagging, clustering and similarity detection (HybridRec, CrossSim, TopFilter)</li>
+  <li><strong>Code smell detection and technical debt</strong> — automated detection using deep learning (EnSeSmells, PILOT)</li>
+</ul>
+
+<p><strong>Key members:</strong> Davide Di Ruscio, Juri Di Rocco, Phuong T. Nguyen, Claudio Di Sipio, Riccardo Rubei</p>
+
+<hr />
+
+<h3 id="recommender-systems-for-software-engineering-rsse">Recommender Systems for Software Engineering (RSSE)</h3>
+
+<p>We build intelligent tools that assist developers and modellers in their daily tasks by providing context-aware recommendations:</p>
+
+<ul>
+  <li><strong>Model recommenders</strong> — MemoRec (metamodel specification), NEMO (next modelling operation), GNN-based assistants</li>
+  <li><strong>Library recommenders</strong> — CrossRec (third-party library selection), DeepLib (upgrade paths), LEV4REC (feature-based)</li>
+  <li><strong>Code generation and summarisation</strong> — LLM-based agents for README summarisation, ChatGPT-generated code detection (GPTSniffer)</li>
+  <li><strong>Popularity bias and adversarial robustness</strong> — fairness and resilience of software recommenders</li>
+</ul>
+
+<p><strong>Key members:</strong> Phuong T. Nguyen, Juri Di Rocco, Davide Di Ruscio, Claudio Di Sipio, Riccardo Rubei</p>
+
+<hr />
+
+<h3 id="ai-for-software-engineering">AI for Software Engineering</h3>
+
+<p>We apply Machine Learning, Deep Learning and Large Language Models to software engineering problems:</p>
+
+<ul>
+  <li><strong>LLMs in MDE</strong> — empirical studies and tools applying LLMs to model-driven tasks</li>
+  <li><strong>Deep learning for software artefact classification</strong> — convolutional and graph neural networks for metamodels</li>
+  <li><strong>Transformer-based code analysis</strong> — CodeBERT-based classifiers, automated summarisation</li>
+  <li><strong>Multi-agent LLM systems</strong> — orchestrating AI agents for software development tasks (MOSAICO, AIM-PRO)</li>
+  <li><strong>Malicious package detection</strong> — LLM-based approaches for identifying malicious PyPI packages</li>
+</ul>
+
+<p><strong>Key members:</strong> Juri Di Rocco, Phuong T. Nguyen, Davide Di Ruscio</p>
+
+<hr />
+
+<h3 id="adaptive-and-gamified-systems">Adaptive and Gamified Systems</h3>
+
+<p>Research on using models and MDE techniques for designing adaptive collective systems and motivational digital environments:</p>
+
+<ul>
+  <li><strong>Adaptive systems modelling</strong> — run-time models for self-adaptive systems</li>
+  <li><strong>Gamification and motivational systems</strong> — design languages and tools for gamified applications</li>
+  <li><strong>Educational tools</strong> — model-driven support for process-oriented learning (LearnPad)</li>
+</ul>
+
+<p><strong>Key member:</strong> Antonio Bucchiarone</p>
+
+<hr />
+
+<h2 id="research-infrastructure">Research Infrastructure</h2>
+
+<p>The lab has access to a software infrastructure including:</p>
+
+<ul>
+  <li>Eclipse-based modelling toolchains (EMF, ATL, JTL, MDEForge, Jjodel)</li>
+  <li>Large-scale OSS forges: GitHub, Maven Central, PyPI</li>
+  <li>GPU cluster access for deep learning experiments</li>
+  <li>Commercial modelling environments (MagicDraw, MetaEdit+)</li>
+  <li>Trained LLMs (GPT-4, CodeBERT, BERT-based models) for software analysis</li>
+</ul>
+
+    </div>
+  </article>
+</div>
+
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+        <div>
+          <div class="footer-brand">MODES Lab</div>
+          <div class="footer-tagline">Model-Driven Engineering and Software Mining Laboratory — University of L'Aquila</div>
+        </div>
+        <div style="display:flex; gap:1.5rem; flex-wrap:wrap; align-items:center;">
+          
+            <a href="/">Home</a>
+          
+            <a href="/research/">Research</a>
+          
+            <a href="/projects/">Projects</a>
+          
+            <a href="/publications/">Publications</a>
+          
+            <a href="/people/">People</a>
+          
+            <a href="/news/">News</a>
+          
+        </div>
+        <div style="font-size:0.8125rem; color:rgba(255,255,255,0.4);">
+          &copy; 2026 MODES Lab &mdash; University of L&rsquo;Aquila
+        </div>
+      </div>
+    </footer>
+
+    <script src="/assets/js/nav-toggle.js"></script>
+    <script src="/assets/js/summary-toggle.js"></script>
+  </body>
+</html>

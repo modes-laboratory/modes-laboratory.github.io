@@ -8,7 +8,7 @@
   summary: "AIM-PRO (AI-powered Model-driven engineering for Productive software development) is a Horizon Europe project focused on developing AI-powered model-driven engineering techniques to improve software productivity. Juri Di Rocco is Work-Package 2 Leader for the University of L'Aquila."
   partners:
     - University of L'Aquila (WP2 Leader)
-  link: ""
+  link: "https://aim-pro.eu"
   image: "/assets/images/projects/aim-pro.png"
 
 -
@@ -21,8 +21,8 @@
   summary: "MOSAICO is a Horizon Europe project aimed at revolutionizing software development by enabling seamless collaboration between AI agents and human developers. It develops dedicated platforms and communication protocols to coordinate multiple AI agents within the software development lifecycle, fostering human-AI collaboration and ensuring ethical and responsible AI development."
   partners:
     - European Consortium
-  link: "https://mosaico-project.eu/"
-  image: "/assets/images/projects/mosaico.png"
+  link: "https://mosaico-project.eu"
+  image: "/assets/images/projects/mosaico.svg"
 
 -
   id: emeliot
@@ -35,7 +35,7 @@
   partners:
     - University of L'Aquila
   link: ""
-  image: "/assets/images/projects/emeliot.png"
+  image: ""
 
 -
   id: lowcomote
@@ -48,8 +48,8 @@
   partners:
     - University of L'Aquila (co-PI)
     - European Consortium
-  link: ""
-  image: "/assets/images/projects/lowcomote.png"
+  link: "https://lowcomote.eu"
+  image: "/assets/images/projects/lowcomote.svg"
 
 -
   id: typhon
@@ -64,7 +64,7 @@
   partners:
     - University of L'Aquila
     - European Industrial Consortium
-  link: "https://www.typhon-project.org/"
+  link: "https://www.typhon-project.org"
   image: "/assets/images/projects/typhon.png"
 
 -
@@ -80,8 +80,8 @@
   partners:
     - University of L'Aquila (WP Leader)
     - 11 international partners
-  link: "https://www.crossminer.org/"
-  image: "/assets/images/projects/crossminer.png"
+  link: "https://www.crossminer.org"
+  image: "/assets/images/projects/crossminer.jpg"
 
 -
   id: learnpad
@@ -94,7 +94,7 @@
   partners:
     - University of L'Aquila (PI, WP Leader)
     - European Consortium
-  link: ""
+  link: "https://cordis.europa.eu/project/id/619583/results"
   image: "/assets/images/projects/learnpad.png"
 
 -
@@ -108,7 +108,7 @@
   partners:
     - University of L'Aquila
     - Rete Ferroviaria Italiana
-  link: "http://www.ossmeter.org/"
+  link: "http://www.ossmeter.org"
   image: "/assets/images/projects/ossmeter.png"
 
 -
@@ -122,5 +122,5 @@
   partners:
     - University of L'Aquila (PI, WP Leader)
     - European Consortium
-  link: ""
-  image: "/assets/images/projects/mancoosi.png"
+  link: "https://www.mancoosi.org"
+  image: "/assets/images/projects/mancoosi.jpg"
