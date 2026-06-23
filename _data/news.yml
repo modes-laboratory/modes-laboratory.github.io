@@ -1,20 +1,59 @@
- - id: 1
-   title: "Call for papers: Software Mining Workshop 2026"
-   date: 2026-02-15
-   summary: "Submit your latest work on software mining techniques and applications. Short papers and tool papers welcome."
-   link: "/news/call-software-mining-2026/"
-   tags: [call, workshop]
+- id: 1
+  title: "Best Paper Award at EASE 2025"
+  date: 2025-06-01
+  summary: "Phuong T. Nguyen co-authored the paper 'Bake Two Cakes with One Oven: RL for Defusing Popularity Bias and Cold-start in Third-Party Library Recommendations', which received the Best Paper Award at the 29th International Conference on Evaluation and Assessment in Software Engineering (EASE 2025)."
+  tags: [award, publication]
 
- - id: 2
-   title: "MODES Lab at ICSE 2025"
-   date: 2025-05-04
-   summary: "Members of the MODES Lab presented three papers and a tutorial at ICSE 2025 in Lisbon. Slides and materials are available."
-   link: "/news/modes-at-icse-2025/"
-   tags: [conference, talk]
+- id: 2
+  title: "AIM-PRO project starts — Juri Di Rocco leads WP2"
+  date: 2026-01-01
+  summary: "MODES Lab joins AIM-PRO, a new EU Horizon Europe project on AI-powered Model-Driven Engineering. Juri Di Rocco is Work-Package 2 Leader for the University of L'Aquila."
+  tags: [project, EU]
 
- - id: 3
-   title: "Open Position: PhD in Model-Driven Engineering"
-   date: 2025-11-01
-   summary: "We are accepting applications for a fully-funded PhD position starting in 2026. See details and application instructions."
-   link: "/work-with-us/positions/phd-2026/"
-   tags: [job, phd]
+- id: 3
+  title: "Distinguished Reviewer Award at ICSE 2026"
+  date: 2026-05-01
+  summary: "Juri Di Rocco received the Distinguished Reviewer Award at the 48th International Conference on Software Engineering (ICSE 2026), recognising outstanding contribution to the peer-review process."
+  tags: [award]
+
+- id: 4
+  title: "MODES Lab co-organises SANER 2026 Workshops & Tutorials"
+  date: 2026-02-01
+  summary: "Juri Di Rocco serves as Workshops and Tutorials Co-Chair at the 33rd IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER 2026)."
+  tags: [organisation, conference]
+
+- id: 5
+  title: "Phuong T. Nguyen appointed Editor-in-Chief of Software Quality Journal"
+  date: 2025-01-01
+  summary: "Prof. Phuong T. Nguyen has been appointed Editor-in-Chief of the Springer Software Quality Journal, one of the leading journals in software engineering research."
+  tags: [editorial]
+
+- id: 6
+  title: "MOSAICO project kicks off"
+  date: 2025-02-01
+  summary: "MODES Lab joins MOSAICO, a Horizon Europe project that aims to enable seamless collaboration between AI agents within the software development lifecycle."
+  tags: [project, EU]
+
+- id: 7
+  title: "Best Paper Award at COLA 2023 — Juri Di Rocco"
+  date: 2023-10-01
+  summary: "Juri Di Rocco, together with Claudio Di Sipio, Davide Di Ruscio, and Phuong T. Nguyen, received the Best Paper Award at the Elsevier Journal of Computer Languages (COLA 2023) for the paper 'LEV4REC: A Feature-based Approach to Engineering RSSEs'."
+  tags: [award, publication]
+
+- id: 8
+  title: "SoSyM First Paper Award 2022"
+  date: 2022-12-01
+  summary: "Juri Di Rocco, Davide Di Ruscio, Claudio Di Sipio, Phuong T. Nguyen, and Alfonso Pierantonio received the SoSyM First Paper Award for 'MemoRec: A Recommender System for Assisting Modelers in Specifying Metamodels', published in Software and Systems Modeling."
+  tags: [award, publication]
+
+- id: 9
+  title: "Alfonso Pierantonio General Chair of MoDELS 2023"
+  date: 2023-09-01
+  summary: "Alfonso Pierantonio served as General Chair of the 26th ACM/IEEE International Conference on Model Driven Engineering Languages and Systems (MoDELS 2023) in Västerås, Sweden."
+  tags: [organisation, conference]
+
+- id: 10
+  title: "Best Foundation Paper at MoDELS 2021"
+  date: 2021-10-01
+  summary: "Juri Di Rocco, Claudio Di Sipio, Davide Di Ruscio, and Phuong T. Nguyen received the Best Foundation Paper Award at MoDELS 2021 for 'A GNN-based Recommender System to Assist the Specification of Metamodels and Models'."
+  tags: [award, publication]

@@ -5,15 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title | default: site.title }}</title>
     <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | default: site.description }}">
-    <!-- Favicons and app manifest -->
     <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/favicons/apple-touch-icon.png' | relative_url }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicons/favicon-32x32.png' | relative_url }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicons/favicon-16x16.png' | relative_url }}">
     <link rel="manifest" href="{{ '/assets/favicons/manifest.json' | relative_url }}">
-    <meta name="msapplication-config" content="{{ '/assets/favicons/browserconfig.xml' | relative_url }}">
     <meta name="theme-color" content="#1A2E40">
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
     <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
     <script>document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';</script>
   </head>
@@ -29,12 +27,14 @@
             <span class="site-title-text">{{ site.title }}</span>
           </a>
         </div>
+
         <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">
           <span class="nav-toggle__bar"></span>
           <span class="nav-toggle__bar"></span>
           <span class="nav-toggle__bar"></span>
           <span class="visually-hidden">Toggle navigation</span>
         </button>
+
         <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
           <ul>
             {% for item in site.data.navigation %}
@@ -51,7 +51,7 @@
                 {% endif %}
               {% endif %}
             {% endif %}
-            <li><a href="{{ item.url | relative_url }}" {% if is_active %}aria-current="page" class="active"{% endif %}>{{ item.title }}</a></li>
+            <li><a href="{{ item.url | relative_url }}"{% if is_active %} aria-current="page" class="active"{% endif %}>{{ item.title }}</a></li>
             {% endfor %}
           </ul>
         </nav>
@@ -59,7 +59,10 @@
         <div class="site-header__extras">
           <div class="social-links" aria-hidden="false">
             {% for s in site.data.social %}
-              <a class="social-link" href="{{ s.url }}" title="{{ s.name }}" target="_blank" rel="noopener noreferrer"><i class="{{ s.icon }}" aria-hidden="true"></i><span class="visually-hidden">{{ s.name }}</span></a>
+              <a class="social-link" href="{{ s.url }}" title="{{ s.name }}" target="_blank" rel="noopener noreferrer">
+                <i class="{{ s.icon }}" aria-hidden="true"></i>
+                <span class="visually-hidden">{{ s.name }}</span>
+              </a>
             {% endfor %}
           </div>
         </div>
@@ -67,18 +70,27 @@
     </header>
 
     <main id="main" class="site-main">
-      <div class="site-main__inner">
-        {{ content }}
-      </div>
+      {{ content }}
     </main>
 
     <footer class="site-footer">
       <div class="site-footer__inner">
-        <p>&copy; {{ site.time | date: '%Y' }} <a href="{{ site.url }}">{{ site.title }}</a>. Powered by Jekyll.</p>
+        <div>
+          <div class="footer-brand">{{ site.title }}</div>
+          <div class="footer-tagline">{{ site.description }}</div>
+        </div>
+        <div style="display:flex; gap:1.5rem; flex-wrap:wrap; align-items:center;">
+          {% for item in site.data.navigation %}
+            <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+          {% endfor %}
+        </div>
+        <div style="font-size:0.8125rem; color:rgba(255,255,255,0.4);">
+          &copy; {{ site.time | date: '%Y' }} MODES Lab &mdash; University of L&rsquo;Aquila
+        </div>
       </div>
     </footer>
 
-  <script src="{{ '/assets/js/nav-toggle.js' | relative_url }}"></script>
-  <script src="{{ '/assets/js/summary-toggle.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/nav-toggle.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/summary-toggle.js' | relative_url }}"></script>
   </body>
 </html>

@@ -2,11 +2,17 @@
 layout: default
 ---
 
-<article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-  <header class="page-header">
-    <h1 class="page-title">{{ page.title }}</h1>
-  </header>
-  <div class="page-content">
-    {{ content }}
-  </div>
-</article>
+{% if page.permalink == '/' %}
+  {{ content }}
+{% else %}
+<div class="site-main__inner">
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <header class="page-header">
+      <h1 class="page-title">{{ page.title }}</h1>
+    </header>
+    <div class="page-content">
+      {{ content }}
+    </div>
+  </article>
+</div>
+{% endif %}
