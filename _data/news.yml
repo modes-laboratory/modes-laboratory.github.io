@@ -1,63 +1,63 @@
-- id: 10
+- id: 1
   title: "SWEN Retreat 2026"
   date: 2026-07-08
-  summary: "The annual SWEN retreat takes place on July 13–15 at Borgotufi (Castel del Giudice, Alto Molise). Three days of plenary and breakout sessions, introductions of six new PhD students and postdocs, and a round table with the Deputy Rector for Research. From July 13 to 15 the whole SWEN group — faculty, postdocs, and PhD students — gathers in Borgotufi, an albergo diffuso in Castel del Giudice (Alto Molise), for its annual retreat.\nThe retreat is the moment of the year when the group steps back from day-to-day work to look at the bigger picture: where our research is going, which cross-lab collaborations to start next, and who has joined us along the way.\n\nProgram highlights:\n\nAn opening plenary on the group’s objectives, communications, and collaborative research\nSelf-introductions by the six new PhD students and postdocs joining SWEN this year\nBreakout sessions shaping cross-lab collaborations and plans for 2026–27\nA closing round table with Prof. Giulio Antonini, Deputy Rector for Research\nFull program and venue details are on the retreat page.\n\nA report from the retreat will follow after the event."
+  summary: "The annual SWEN retreat takes place on July 13–15 at Borgotufi (Castel del Giudice, Alto Molise). Three days of plenary and breakout sessions, introductions of six new PhD students and postdocs, and a round table with the Deputy Rector for Research."
   tags: [research, meeting]
-- id: 1
+- id: 2
   title: "Best Paper Award at EASE 2025"
   date: 2025-06-01
   summary: "Phuong T. Nguyen co-authored the paper 'Bake Two Cakes with One Oven: RL for Defusing Popularity Bias and Cold-start in Third-Party Library Recommendations', which received the Best Paper Award at the 29th International Conference on Evaluation and Assessment in Software Engineering (EASE 2025)."
   tags: [award, publication]
 
-- id: 2
+- id: 3
   title: "AIM-PRO project starts — Juri Di Rocco leads WP2"
   date: 2026-01-01
   summary: "MODES Lab joins AIM-PRO, a new EU Horizon Europe project on AI-powered Model-Driven Engineering. Juri Di Rocco is Work-Package 2 Leader for the University of L'Aquila."
   tags: [project, EU]
 
-- id: 3
+- id: 4
   title: "Distinguished Reviewer Award at ICSE 2026"
   date: 2026-05-01
   summary: "Juri Di Rocco received the Distinguished Reviewer Award at the 48th International Conference on Software Engineering (ICSE 2026), recognising outstanding contribution to the peer-review process."
   tags: [award]
 
-- id: 4
+- id: 5
   title: "MODES Lab co-organises SANER 2026 Workshops & Tutorials"
   date: 2026-02-01
   summary: "Juri Di Rocco serves as Workshops and Tutorials Co-Chair at the 33rd IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER 2026)."
   tags: [organisation, conference]
 
-- id: 5
+- id: 6
   title: "Phuong T. Nguyen appointed Editor-in-Chief of Software Quality Journal"
   date: 2025-01-01
   summary: "Prof. Phuong T. Nguyen has been appointed Editor-in-Chief of the Springer Software Quality Journal, one of the leading journals in software engineering research."
   tags: [editorial]
 
-- id: 6
+- id: 7
   title: "MOSAICO project kicks off"
   date: 2025-02-01
   summary: "MODES Lab joins MOSAICO, a Horizon Europe project that aims to enable seamless collaboration between AI agents within the software development lifecycle."
   tags: [project, EU]
 
-- id: 7
+- id: 8
   title: "Best Paper Award at COLA 2023 — Juri Di Rocco"
   date: 2023-10-01
   summary: "Juri Di Rocco, together with Claudio Di Sipio, Davide Di Ruscio, and Phuong T. Nguyen, received the Best Paper Award at the Elsevier Journal of Computer Languages (COLA 2023) for the paper 'LEV4REC: A Feature-based Approach to Engineering RSSEs'."
   tags: [award, publication]
 
-- id: 8
+- id: 9
   title: "SoSyM First Paper Award 2022"
   date: 2022-12-01
   summary: "Juri Di Rocco, Davide Di Ruscio, Claudio Di Sipio, Phuong T. Nguyen, and Alfonso Pierantonio received the SoSyM First Paper Award for 'MemoRec: A Recommender System for Assisting Modelers in Specifying Metamodels', published in Software and Systems Modeling."
   tags: [award, publication]
 
-- id: 9
+- id: 10
   title: "Alfonso Pierantonio General Chair of MoDELS 2023"
   date: 2023-09-01
   summary: "Alfonso Pierantonio served as General Chair of the 26th ACM/IEEE International Conference on Model Driven Engineering Languages and Systems (MoDELS 2023) in Västerås, Sweden."
   tags: [organisation, conference]
 
-- id: 10
+- id: 11
   title: "Best Foundation Paper at MoDELS 2021"
   date: 2021-10-01
   summary: "Juri Di Rocco, Claudio Di Sipio, Davide Di Ruscio, and Phuong T. Nguyen received the Best Foundation Paper Award at MoDELS 2021 for 'A GNN-based Recommender System to Assist the Specification of Metamodels and Models'."
