@@ -55,3 +55,10 @@
   bio: "Damiano Di Vincenzo is a postdoctoral researcher at the University of L'Aquila, Italy. He holds a Master's degree in Web Technologies and graduated with a thesis on encoding the Ecore and EMF frameworks within the Angular/Node.js ecosystem. Since 2020 he has been the principal designer of the Jjodel collaborative modeling platform and currently serves as its Co-Chief Architect. His research spans model-driven engineering, collaborative modeling environments, language design, and platform architecture."
   photo: "/assets/images/people/damiano.png"
   url: "#"
+
+  - name: "Muhammad Umar Zeshan"
+  role: "PhD / Research Fellow"
+  email: "muhammadumar.zeshan@student.univaq.it"
+  bio: "Muhammad Umar Zesahan is a PhD researcher at the University of L'Aquila, Italy, under the Italian National PhD in AI for Society program. He holds a Master's degree in Software Engineering from Tianjin University, China. Since 2023, he has been conducting research on detecting malicious code in the PyPI ecosystem. His research spans AI for Software Engineering, Large Language Models, and AgenticAI4SE."
+  photo: "/assets/images/people/umar.png"
+  url: "#"
